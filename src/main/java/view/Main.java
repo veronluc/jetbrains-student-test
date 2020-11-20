@@ -29,7 +29,7 @@ public class Main extends Application {
         try {
             // Load root layout from fxml file.
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("RootLayout.fxml"));
+            loader.setLocation(Main.class.getResource("/RootLayout.fxml"));
             rootLayout = (BorderPane) loader.load();
 
             // Show the scene containing the root layout
@@ -47,7 +47,7 @@ public class Main extends Application {
     public void showEditorLayout() {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("EditorLayout.fxml"));
+            loader.setLocation(Main.class.getResource("/EditorLayout.fxml"));
             AnchorPane editorLayout = (AnchorPane) loader.load();
 
             rootLayout.setCenter(editorLayout);
