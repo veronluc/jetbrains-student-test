@@ -19,8 +19,7 @@
                <children>
                   <TextArea fx:id="script" prefHeight="225.0" prefWidth="598.0" promptText="Write your script here !" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                   <Label layoutX="165.0" layoutY="239.0" text="File path" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="382.0" />
-                  <Button fx:id="saveButton" layoutX="457.0" layoutY="230.0" mnemonicParsing="false" onAction="#saveFile" text="Save file" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="74.0" />
-                  <Button fx:id="runButton" layoutX="570.0" layoutY="238.0" mnemonicParsing="false" onAction="#run" text="Run" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                  <Button fx:id="saveAndRunButton" layoutX="1782.0" layoutY="689.0" mnemonicParsing="false" onAction="#saveAndRun" text="Save file and run" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="28.0" />
                   <TextField fx:id="filePath" layoutX="227.0" layoutY="235.0" prefHeight="27.0" prefWidth="230.0" promptText="/Users/lucveron/Desktop/test.kts" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="141.0" />
                   <ProgressIndicator fx:id="loading" layoutX="544.0" layoutY="14.0" prefHeight="27.0" prefWidth="27.0" visible="false" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="15.0" />
                   <Button fx:id="clearScriptButton" layoutX="1396.0" layoutY="687.0" mnemonicParsing="false" onAction="#clearScript" text="Clear script" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="458.0" />

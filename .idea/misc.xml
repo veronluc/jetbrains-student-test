@@ -6,6 +6,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredPathMasks">
+      <list>
+        <option value=".idea/*" />
+      </list>
+    </option>
   </component>
   <component name="ProjectKey">
     <option name="state" value="project://e79810c8-c5c8-43b1-b19c-90c1f4095425" />

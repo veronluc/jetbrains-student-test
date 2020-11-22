@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/kts-samples/essai.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts-samples/github.main.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts-samples/println.kts" beforeDir="false" afterPath="$PROJECT_DIR$/kts-samples/println.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jetbrains-student-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jetbrains-student-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/EditorLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/EditorLayoutController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/EditorLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EditorLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScriptBuilderTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/EditorLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EditorLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +106,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -107,12 +117,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48390806" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -168,6 +178,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScriptBuilderTest.testEngineFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jetbrains-student-test" />
       <option name="PACKAGE_NAME" value="" />
@@ -202,6 +225,40 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="println.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="jetbrains-student-test" />
+      <option name="filePath" value="$PROJECT_DIR$/kts-samples/println.kts" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/kts-samples" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" value="$PROJECT_DIR$/kts-samples/println.kts" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/kts-samples" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,9 +315,11 @@
       <item itemvalue="JUnit.ScriptBuilderTest.testEngineFactory" />
       <item itemvalue="JUnit.ScriptBuilderTest.testSimpleEval" />
       <item itemvalue="Maven.compile run" />
+      <item itemvalue="Kotlin script.println.kts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin script.println.kts" />
         <item itemvalue="JUnit.ScriptBuilderTest.testSimpleEval" />
         <item itemvalue="JUnit.ScriptBuilderTest.testEngineFactory" />
       </list>
@@ -289,6 +348,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
@@ -304,10 +364,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="507" y="162" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1605828289378" />
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1605996520323">
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1606079331825">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1605996520323" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1606079331825" />
     <state x="457" y="259" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605909162118">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -316,58 +376,58 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="345" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900@0.0.1440.900" timestamp="1605912352712" />
-    <state x="483" y="164" key="#xdebugger.evaluate" timestamp="1605995221893">
+    <state x="483" y="164" key="#xdebugger.evaluate" timestamp="1606080746293">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="483" y="164" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1605995221893" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1606000113702">
+    <state x="483" y="164" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1606080746293" />
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1606081314397">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606000113702" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1605984891325" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1606000113699">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606081314397" />
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1606077574403" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1606081314395">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606000113699" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1605984891312" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1606000113681">
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606081314395" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1606077574400" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1606081314394">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606000113681" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1605984891307" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1606000113700">
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606081314394" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1606077574400" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1606081314396">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606000113700" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1605984891321" />
-    <state width="0" height="0" key="GridCell.Tab.1.bottom" timestamp="1606000113565">
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606081314396" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1606077574401" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1606081314330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606000113565" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1605995206134" />
-    <state width="0" height="0" key="GridCell.Tab.1.center" timestamp="1606000113563">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606081314330" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1606077574366" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1606081314328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606000113563" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1605995206132" />
-    <state width="0" height="0" key="GridCell.Tab.1.left" timestamp="1606000113562">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606081314328" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1606077574362" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1606081314328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606000113562" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1605995206130" />
-    <state width="0" height="0" key="GridCell.Tab.1.right" timestamp="1606000113564">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606081314328" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1606077574361" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1606081314329">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606000113564" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1605995206132" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606081314329" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1606077574364" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1605912699465">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1605912699465" />
-    <state x="208" y="23" width="1024" height="808" key="SettingsEditor" timestamp="1605974243863">
+    <state x="208" y="23" width="1024" height="808" key="SettingsEditor" timestamp="1606081522728">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="208" y="23" width="1024" height="808" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605974243863" />
+    <state x="208" y="23" width="1024" height="808" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606081522728" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1605987576195">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -376,21 +436,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1605989441788" />
-    <state x="343" y="67" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605996701456">
+    <state x="343" y="67" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606065866324">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="343" y="67" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1605996701456" />
+    <state x="343" y="67" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1606065866324" />
     <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605974132440">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605974132440" />
-    <state x="427" y="205" width="586" height="548" key="find.popup" timestamp="1605989499788">
+    <state x="427" y="205" width="586" height="548" key="find.popup" timestamp="1606065619268">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="427" y="205" width="586" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1605989499788" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605994003379">
+    <state x="427" y="205" width="586" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1606065619268" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606081370317">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605994003379" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606081370317" />
   </component>
 </project>

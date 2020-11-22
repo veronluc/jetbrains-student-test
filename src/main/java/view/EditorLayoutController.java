@@ -1,12 +1,11 @@
 package view;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintStream;
+import java.io.InputStreamReader;
 import javafx.concurrent.Service;
 import javafx.concurrent.Task;
 import javafx.fxml.FXML;
@@ -16,25 +15,15 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
-import static org.jetbrains.kotlin.cli.common.environment.UtilKt.setIdeaIoUseFallback;
 
 public class EditorLayoutController {
 
-    ScriptEngineManager manager;
-    ScriptEngine engine;
-    PrintStream printStream;
-    ByteArrayOutputStream baos;
     @FXML
     private TextArea script;
     @FXML
-    private Button runButton;
-    @FXML
     private Button clearScriptButton;
     @FXML
-    private Button saveButton;
+    private Button saveAndRunButton;
     @FXML
     private Circle scriptAchievementIndicator;
     @FXML
@@ -45,15 +34,11 @@ public class EditorLayoutController {
     private ProgressIndicator loading;
 
     Service<Void> compilationService;
+    ProcessBuilder processBuilder;
 
     public EditorLayoutController() {
-        setIdeaIoUseFallback();
-        manager = new ScriptEngineManager();
-        engine = manager.getEngineByExtension("kts");
-        baos = new ByteArrayOutputStream();
-        printStream = new PrintStream(baos);
-        System.setOut(printStream);
         initCompilationService();
+        processBuilder = new ProcessBuilder();
     }
 
     void initCompilationService() {
@@ -62,58 +47,79 @@ public class EditorLayoutController {
             protected Task<Void> createTask() {
                 return new Task<>() {
                     @Override
-                    protected Void call() throws ScriptException {
-                        for (CharSequence line : script.getParagraphs()) {
-                            engine.eval(line.toString());
-                            consoleOutput.appendText(baos.toString());
-                            baos.reset();
+                    protected Void call() {
+                        try {
+                            processBuilder.command("kotlinc", "-script", filePath.getText()).redirectErrorStream(true);
+                            Process process = processBuilder.start();
+                            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+                            String line;
+                            while ((line = reader.readLine()) != null) {
+                                consoleOutput.appendText(line + "\n");
+                            }
+                            int exitVal = process.waitFor();
+                            if (exitVal == 0) {
+                                handleCompilationEnd(Color.GREEN);
+                            } else {
+                                handleCompilationEnd(Color.RED);
+                            }
+                        } catch (IOException | InterruptedException e) {
+                            consoleOutput.appendText("Exception error: \t" + e.getMessage() + "\n");
                         }
                         return null;
                     }
                 };
             }
         };
-        compilationService.setOnSucceeded(e -> {
-            scriptAchievementIndicator.setFill(Color.GREEN);
-            loading.setVisible(false);
-            runButton.setDisable(false);
-            saveButton.setDisable(false);
-            filePath.setDisable(false);
-            clearScriptButton.setDisable(false);
-        });
         compilationService.setOnFailed(e -> {
-            scriptAchievementIndicator.setFill(Color.RED);
-            loading.setVisible(false);
-            runButton.setDisable(false);
-            saveButton.setDisable(false);
-            filePath.setDisable(false);
-            clearScriptButton.setDisable(false);
+            handleCompilationEnd(Color.RED);
             consoleOutput.appendText(compilationService.getException().getMessage());
         });
     }
 
-    @FXML
-    private void run() {
-        printStream.flush();
-        baos.reset();
+    void prepareCompilation() {
         consoleOutput.setText("");
+        scriptAchievementIndicator.setFill(Color.WHITE);
+        script.setDisable(true);
         loading.setVisible(true);
-        runButton.setDisable(true);
-        saveButton.setDisable(true);
+        saveAndRunButton.setDisable(true);
         filePath.setDisable(true);
         clearScriptButton.setDisable(true);
+    }
+
+    void handleCompilationEnd(Color color) {
+        scriptAchievementIndicator.setFill(color);
+        script.setDisable(false);
+        loading.setVisible(false);
+        saveAndRunButton.setDisable(false);
+        filePath.setDisable(false);
+        clearScriptButton.setDisable(false);
+    }
+
+    @FXML
+    private void saveAndRun() {
+        if (saveFile()) {
+            runCompilation();
+        }
+    }
+
+    @FXML
+    private void runCompilation() {
+        prepareCompilation();
         compilationService.restart();
     }
 
     @FXML
-    private void saveFile() {
+    private boolean saveFile() {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(new File(filePath.getText())));
             writer.write(script.getText());
             writer.flush();
             writer.close();
+            return true;
         } catch (IOException e) {
-            e.printStackTrace();
+            scriptAchievementIndicator.setFill(Color.RED);
+            consoleOutput.setText("Error while saving file");
+            return false;
         }
     }
 
