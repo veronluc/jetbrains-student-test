@@ -10,27 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/kts-samples/printWithSleep.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VisibleParagraphStyler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/keywords.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/keywords.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jetbrains-student-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jetbrains-student-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts-samples/essai.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/EditorLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RootLayoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/LoadScriptException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EditorLayout.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.script.ScriptEngineFactory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/RootLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/RootLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EditorLayout.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/services/javax.script.ScriptEngineFactory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RootLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RootLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,10 +359,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1605979033404" />
-    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606090759776">
+    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606091410739">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606090759776" />
+    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606091410739" />
     <state x="507" y="162" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605828289378">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -406,25 +387,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="164" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1606086263785" />
-    <state width="1398" height="373" key="GridCell.Tab.0.bottom" timestamp="1606090938493">
+    <state width="1398" height="373" key="GridCell.Tab.0.bottom" timestamp="1606091441153">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="373" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606090938493" />
+    <state width="1398" height="373" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606091441153" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1606077574403" />
-    <state width="1398" height="373" key="GridCell.Tab.0.center" timestamp="1606090938491">
+    <state width="1398" height="373" key="GridCell.Tab.0.center" timestamp="1606091441152">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="373" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606090938491" />
+    <state width="1398" height="373" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606091441152" />
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1606077574400" />
-    <state width="1398" height="373" key="GridCell.Tab.0.left" timestamp="1606090938490">
+    <state width="1398" height="373" key="GridCell.Tab.0.left" timestamp="1606091441151">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="373" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606090938490" />
+    <state width="1398" height="373" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606091441151" />
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1606077574400" />
-    <state width="1398" height="373" key="GridCell.Tab.0.right" timestamp="1606090938492">
+    <state width="1398" height="373" key="GridCell.Tab.0.right" timestamp="1606091441153">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="373" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606090938492" />
+    <state width="1398" height="373" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606091441153" />
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1606077574401" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1606090692142">
       <screen x="0" y="0" width="1440" height="900" />
@@ -478,9 +459,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="369" y="184" width="700" height="530" key="recent.locations.popup/0.0.1440.900@0.0.1440.900" timestamp="1606090924247" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606088179411">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606091412814">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606088179411" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606091412814" />
   </component>
 </project>
