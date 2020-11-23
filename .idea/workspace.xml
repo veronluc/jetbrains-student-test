@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jetbrains-student-test:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/kts-samples/essai.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kts-samples/github.main.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts-samples/printWithSleep.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VisibleParagraphStyler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/keywords.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/keywords.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jetbrains-student-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jetbrains-student-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts-samples/essai.kts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/EditorLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/EditorLayoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EditorLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EditorLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ScriptBuilderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EditorLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EditorLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/EditorLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RootLayoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/LoadScriptException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/EditorLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.script.ScriptEngineFactory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/RootLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/RootLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EditorLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/services/javax.script.ScriptEngineFactory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RootLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RootLayout.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -70,6 +82,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="CSS File" />
         <option value="Class" />
         <option value="Kotlin Script" />
       </list>
@@ -117,7 +130,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48390806" />
     <property name="recentsLimit" value="5" />
@@ -125,12 +139,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/View" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Maven.compile run">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -157,9 +174,8 @@
       <Port>5050</Port>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="view.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="jetbrains-student-test" />
-      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../javafx-sdk-11.0.2/lib/ --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
@@ -228,6 +244,10 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="jetbrains-student-test.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/jetbrains_student_test_jar/jetbrains-student-test.jar" />
+      <method v="2" />
     </configuration>
     <configuration name="println.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="jetbrains-student-test" />
@@ -312,13 +332,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.jetbrains-student-test.jar" />
       <item itemvalue="JUnit.ScriptBuilderTest.testEngineFactory" />
       <item itemvalue="JUnit.ScriptBuilderTest.testSimpleEval" />
-      <item itemvalue="Maven.compile run" />
       <item itemvalue="Kotlin script.println.kts" />
+      <item itemvalue="Maven.compile run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.jetbrains-student-test.jar" />
         <item itemvalue="Kotlin script.println.kts" />
         <item itemvalue="JUnit.ScriptBuilderTest.testSimpleEval" />
         <item itemvalue="JUnit.ScriptBuilderTest.testEngineFactory" />
@@ -356,10 +378,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1605979033404" />
-    <state x="184" y="112" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605972933208">
+    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606090759776">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1605972933208" />
+    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606090759776" />
     <state x="507" y="162" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605828289378">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -368,70 +390,74 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1606079331825" />
-    <state x="457" y="259" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605909162118">
+    <state x="457" y="259" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606086839295">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="457" y="259" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1605909162118" />
+    <state x="457" y="259" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1606086839295" />
     <state x="345" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1605912352712">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="345" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900@0.0.1440.900" timestamp="1605912352712" />
-    <state x="483" y="164" key="#xdebugger.evaluate" timestamp="1606080746293">
+    <state x="505" y="338" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1606088168320">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="483" y="164" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1606080746293" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1606081314397">
+    <state x="505" y="338" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1606088168320" />
+    <state x="483" y="164" key="#xdebugger.evaluate" timestamp="1606086263785">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606081314397" />
+    <state x="483" y="164" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1606086263785" />
+    <state width="1398" height="373" key="GridCell.Tab.0.bottom" timestamp="1606090938493">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="373" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606090938493" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1606077574403" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1606081314395">
+    <state width="1398" height="373" key="GridCell.Tab.0.center" timestamp="1606090938491">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606081314395" />
+    <state width="1398" height="373" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606090938491" />
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1606077574400" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1606081314394">
+    <state width="1398" height="373" key="GridCell.Tab.0.left" timestamp="1606090938490">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606081314394" />
+    <state width="1398" height="373" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606090938490" />
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1606077574400" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1606081314396">
+    <state width="1398" height="373" key="GridCell.Tab.0.right" timestamp="1606090938492">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606081314396" />
+    <state width="1398" height="373" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606090938492" />
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1606077574401" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1606081314330">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1606090692142">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606081314330" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606090692142" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1606077574366" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1606081314328">
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1606090692140">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606081314328" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606090692140" />
     <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1606077574362" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1606081314328">
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1606090692139">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606081314328" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606090692139" />
     <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1606077574361" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1606081314329">
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1606090692141">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606081314329" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606090692141" />
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1606077574364" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1605912699465">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1605912699465" />
-    <state x="208" y="23" width="1024" height="808" key="SettingsEditor" timestamp="1606081522728">
+    <state x="208" y="23" width="1024" height="808" key="SettingsEditor" timestamp="1606087263754">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="208" y="23" width="1024" height="808" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606081522728" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1605987576195">
+    <state x="208" y="23" width="1024" height="808" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606087263754" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1606087892190">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1605987576195" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1606087892190" />
     <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1605989441788">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -444,13 +470,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605974132440" />
-    <state x="427" y="205" width="586" height="548" key="find.popup" timestamp="1606065619268">
+    <state x="427" y="205" width="586" height="548" key="find.popup" timestamp="1606088950757">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="427" y="205" width="586" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1606065619268" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606081370317">
+    <state x="427" y="205" width="586" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1606088950757" />
+    <state x="369" y="184" width="700" height="530" key="recent.locations.popup" timestamp="1606090924247">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606081370317" />
+    <state x="369" y="184" width="700" height="530" key="recent.locations.popup/0.0.1440.900@0.0.1440.900" timestamp="1606090924247" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606088179411">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606088179411" />
   </component>
 </project>

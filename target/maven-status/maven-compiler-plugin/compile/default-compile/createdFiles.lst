@@ -1,6 +1,5 @@
-view/Main.class
-view/EditorLayoutController.class
-view/LoadScriptException.class
-view/Controller.class
-view/EditorLayoutController$1.class
-view/EditorLayoutController$1$1.class
+RootLayoutController$1$1.class
+RootLayoutController$1.class
+Main.class
+VisibleParagraphStyler.class
+RootLayoutController.class
