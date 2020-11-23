@@ -12,6 +12,8 @@
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RootLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RootLayoutController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +114,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48390806" />
     <property name="recentsLimit" value="5" />
@@ -127,6 +130,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/View" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="open Bring-Lights" />
+    </option>
   </component>
   <component name="RunManager" selected="Maven.compile run">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -175,15 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -343,6 +349,8 @@
       <workItem from="1605907352753" duration="8309000" />
       <workItem from="1605965085768" duration="22696000" />
       <workItem from="1605998064035" duration="2234000" />
+      <workItem from="1606125427896" duration="620000" />
+      <workItem from="1606136861868" duration="2190000" />
     </task>
     <servers />
   </component>
@@ -359,10 +367,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1605979033404" />
-    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606091410739">
+    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138293331">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606091410739" />
+    <state x="184" y="112" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606138293331" />
     <state x="507" y="162" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605828289378">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -387,45 +395,49 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="164" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1606086263785" />
-    <state width="1398" height="373" key="GridCell.Tab.0.bottom" timestamp="1606091441153">
+    <state x="471" y="166" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606139053434">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="373" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606091441153" />
+    <state x="471" y="166" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1606139053434" />
+    <state width="1398" height="373" key="GridCell.Tab.0.bottom" timestamp="1606138969803">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="373" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606138969803" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1606077574403" />
-    <state width="1398" height="373" key="GridCell.Tab.0.center" timestamp="1606091441152">
+    <state width="1398" height="373" key="GridCell.Tab.0.center" timestamp="1606138969802">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="373" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606091441152" />
+    <state width="1398" height="373" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606138969802" />
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1606077574400" />
-    <state width="1398" height="373" key="GridCell.Tab.0.left" timestamp="1606091441151">
+    <state width="1398" height="373" key="GridCell.Tab.0.left" timestamp="1606138969801">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="373" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606091441151" />
+    <state width="1398" height="373" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606138969801" />
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1606077574400" />
-    <state width="1398" height="373" key="GridCell.Tab.0.right" timestamp="1606091441153">
+    <state width="1398" height="373" key="GridCell.Tab.0.right" timestamp="1606138969803">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="373" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606091441153" />
+    <state width="1398" height="373" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606138969803" />
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1606077574401" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1606090692142">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1606092245784">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606090692142" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606092245784" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1606077574366" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1606090692140">
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1606092245783">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606090692140" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606092245783" />
     <state width="1398" height="304" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1606077574362" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1606090692139">
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1606092245782">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606090692139" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606092245782" />
     <state width="1398" height="304" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1606077574361" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1606090692141">
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1606092245784">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606090692141" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606092245784" />
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1606077574364" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1605912699465">
       <screen x="0" y="0" width="1440" height="900" />
@@ -459,9 +471,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="369" y="184" width="700" height="530" key="recent.locations.popup/0.0.1440.900@0.0.1440.900" timestamp="1606090924247" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606091412814">
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1606125475972">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606091412814" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1606125475972" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606139510208">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606139510208" />
   </component>
 </project>

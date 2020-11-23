@@ -20,6 +20,9 @@ public class Main extends Application {
         initRootLayout();
     }
 
+    /**
+     * Load the root fxml file of the software and the style file for keywords
+     */
     public void initRootLayout() {
         try {
             FXMLLoader loader = new FXMLLoader();

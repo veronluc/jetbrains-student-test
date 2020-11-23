@@ -50,13 +50,20 @@ public class RootLayoutController {
         processBuilder = new ProcessBuilder();
     }
 
+    /**
+     * Adds line numbers to the codeArea and add Observer on the scriptText in order to make hilighting
+     */
     @FXML
     public void initialize() {
         script.setParagraphGraphicFactory(LineNumberFactory.get(script));
         script.getVisibleParagraphs().addModificationObserver(new VisibleParagraphStyler<>(script, this::computeHighlighting));
     }
 
+    /**
+     * Init the compilation service : creation of a new thread for compilation
+     */
     void initCompilationService() {
+        //use of the Service abstract class in order to create a new thread and avoid ui freeze
         compilationService = new Service<>() {
             @Override
             protected Task<Void> createTask() {
@@ -64,12 +71,14 @@ public class RootLayoutController {
                     @Override
                     protected Void call() {
                         try {
+                            //use of a process builder to execute kotlinc -script cli
                             processBuilder.command("kotlinc", "-script", filePath.getText()).redirectErrorStream(true);
                             Process process = processBuilder.start();
                             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
                             String line;
                             while ((line = reader.readLine()) != null) {
                                 String finalLine = line;
+                                //write the output of the script in the console
                                 Platform.runLater(() -> consoleOutput.appendText(finalLine + "\n"));
                             }
                             int exitVal = process.waitFor();
@@ -92,6 +101,9 @@ public class RootLayoutController {
         });
     }
 
+    /**
+     * Locks ui interactions during compilation
+     */
     void prepareCompilation() {
         consoleOutput.setText("");
         scriptAchievementIndicator.setFill(Color.WHITE);
@@ -101,6 +113,10 @@ public class RootLayoutController {
         filePath.setDisable(true);
     }
 
+    /**
+     * Unlocks ui interactions when compilation has finished
+     * @param color color of the script achievement indicator
+     */
     void handleCompilationEnd(Color color) {
         scriptAchievementIndicator.setFill(color);
         script.setDisable(false);
@@ -109,6 +125,9 @@ public class RootLayoutController {
         filePath.setDisable(false);
     }
 
+    /**
+     * Runs the script if it can be saved
+     */
     @FXML
     private void saveAndRun() {
         if (filePath.getText().endsWith(".kts")) {
@@ -126,6 +145,10 @@ public class RootLayoutController {
         compilationService.restart();
     }
 
+    /**
+     * Write the file to the file written in the filePath textField and write potential errors in the console
+     * @return the save state as a boolean (fail ou success)
+     */
     @FXML
     private boolean saveFile() {
         try {
@@ -141,6 +164,11 @@ public class RootLayoutController {
         }
     }
 
+    /**
+     * Highlights the text given in parameter with the color set in keywords.css
+     * @param text text to highlight
+     * @return spanBuilder with styleClass applied on keywords
+     */
     private StyleSpans<Collection<String>> computeHighlighting(String text) {
         Matcher matcher = PATTERN.matcher(text);
         int lastKwEnd = 0;
